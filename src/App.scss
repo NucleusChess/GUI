@@ -1,0 +1,20 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+//
+//[data-testid ^= 'bK'].check,
+//[data-testid ^= 'wK'].check {
+//  box-shadow: inset 0 0 5px 1.5px red;
+//}
